@@ -1,0 +1,31 @@
+# Dependencias
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Variaveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Modelos treinados e datasets pesados
+*.h5
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Logs e caches
+*.log
+.cache/
+.ipynb_checkpoints/
+
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
